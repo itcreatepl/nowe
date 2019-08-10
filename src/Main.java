@@ -9,6 +9,13 @@ public class Main {
         catList.add(new Cat("kot2",1));
         catList.add(new Cat("kot3",1));
         catList.add(new Cat("kot4",1));
+
+        allCatsmakeRorar(catList);
+
     }
+    static  void allCatsmakeRorar(List<Cat> list){
+
+    }
+
 
 }
