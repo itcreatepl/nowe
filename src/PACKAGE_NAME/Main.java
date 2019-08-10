@@ -1,3 +1,5 @@
+import PACKAGE_NAME.Cat;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,6 +16,9 @@ public class Main {
 
     }
     static  void allCatsmakeRorar(List<Cat> list){
+        for (Cat cat: list) {
+            cat.makeRorar();
+        }
 
     }
 
